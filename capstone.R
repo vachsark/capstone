@@ -135,4 +135,5 @@ counts <- aggregate(all_trips_v2$ride_length2 ~ all_trips_v2$member_casual + all
 counts
 # the new file with all the data
 
+
 write.csv(counts, file = "C:\\Users\\vache\\OneDrive\\Desktop\\capstone\\avg_ride_length.csv")
